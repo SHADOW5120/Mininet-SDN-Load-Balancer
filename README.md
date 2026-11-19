@@ -39,6 +39,7 @@ This project implements an SDN-based load balancing system with three main compo
 The objective is to improve traffic distribution, utilize available network paths more efficiently, and reduce network congestion.
 
 <img width="538" height="400" alt="image" src="https://github.com/user-attachments/assets/27aea504-fec1-47ba-9d50-c5f450155e42" />
+<br>
 images/sdn_architecture.png
 <!-- IMAGE: images/sdn_architecture.png -->
 <!-- Add a system architecture diagram showing Mininet, Open vSwitch, Floodlight Controller, and the Python applications. -->
@@ -97,6 +98,7 @@ The system consists of three main layers:
 The Python applications communicate with the SDN Controller through REST APIs to retrieve network information and install flow rules.
 
 <img width="373" height="340" alt="image" src="https://github.com/user-attachments/assets/16aa6087-17e7-444e-9504-d116f5b07331" />
+<br>
 images/system_architecture.png
 <!-- IMAGE: images/system_architecture.png -->
 <!-- Add an architecture diagram illustrating communication between Python applications, Floodlight REST API, Open vSwitch, and Mininet hosts. -->
@@ -306,11 +308,11 @@ Expected result:
 images/pingall_test.png
 <!-- IMAGE: images/pingall_test.png -->
 <!-- Add a screenshot showing successful pingall results. -->
-
+<br>
 <img width="416" height="203" alt="image" src="https://github.com/user-attachments/assets/3210b8fa-d045-4137-816b-988da2ebd39f" />
 <br>
 images/h4_h1_trafic_bandwith.png
-
+<br>
 <img width="416" height="213" alt="image" src="https://github.com/user-attachments/assets/f468ed4e-ae93-47fc-b342-76e3e10f9610" />
 <br>
 images/h4_h1_latency.png
@@ -470,19 +472,19 @@ The analysis focuses on:
 <img width="492" height="169" alt="image" src="https://github.com/user-attachments/assets/f888457e-142c-4229-9cfe-807f239c8c16" />
 <br>
 images/h4_package_before_LB.png
-
+<br>
 <img width="492" height="196" alt="image" src="https://github.com/user-attachments/assets/1bc0f81f-5d27-44ea-a000-9e57259a272d" />
 <br>
 images/h3_package_before_LB.png
-
+<br>
 <img width="532" height="323" alt="image" src="https://github.com/user-attachments/assets/102dc1ea-6738-4c5f-a4c1-6117bc0b704e" />
 <br>
 images/h4_package_after_LB.png
-
+<br>
 <img width="551" height="330" alt="image" src="https://github.com/user-attachments/assets/87ef3eeb-d543-48ae-9828-32b514d2066d" />
 <br>
 images/h3_package_after_LB.png
-
+<br>
 <img width="556" height="263" alt="image" src="https://github.com/user-attachments/assets/ff3e21e1-25a9-4a82-bc7a-3bbda95538d9" />
 <img width="548" height="188" alt="image" src="https://github.com/user-attachments/assets/6f568e83-8b84-4de6-9365-4943e0bebf4e" />
 <br>
