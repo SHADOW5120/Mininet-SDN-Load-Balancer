@@ -1,4 +1,4 @@
-<img width="414" height="303" alt="image" src="https://github.com/user-attachments/assets/27250b0f-d4af-469b-8b24-46a7449064a9" /># SDN Load Balancer using Mininet and Floodlight
+# SDN Load Balancer using Mininet and Floodlight
 
 An implementation of a **Software-Defined Networking (SDN) Load Balancer** using Mininet, Open vSwitch (OVS), and a Floodlight-compatible REST API.
 
@@ -137,6 +137,7 @@ s1, s2, s3, s4, s10,
 s11, s17, s18, s21, s22
 ```
 <img width="590" height="300" alt="image" src="https://github.com/user-attachments/assets/ed363662-ad7b-490a-bb4c-b3dd55863c7d" />
+<br>
 images/fattree_topology.png
 <!-- IMAGE: images/fattree_topology.png -->
 <!-- Add a screenshot or diagram of the complete Fat-Tree topology, including all 8 hosts and 10 switches. -->
@@ -261,6 +262,7 @@ java -jar target/floodlight.jar
 The controller should expose its REST API on port `8080` and communicate with OpenFlow switches through port `6653`, according to the controller configuration.
 
 <img width="424" height="303" alt="image" src="https://github.com/user-attachments/assets/75b7eade-1c58-41a2-a778-9e6a1b39b64e" />
+<br>
 images/controller_running.png
 <!-- IMAGE: images/controller_running.png -->
 <!-- Add a screenshot showing Floodlight successfully starting in the terminal. -->
@@ -278,6 +280,7 @@ sudo mn --custom fattree_topo.py --topo mytopo --controller=remote,ip=127.0.0.1,
 This command creates the virtual network and connects Mininet to the remote SDN Controller.
 
 <img width="414" height="303" alt="image" src="https://github.com/user-attachments/assets/8bf4d4ab-0642-48b3-85c2-1d9ea642a249" />
+<br>
 images/mininet_topology.png
 <!-- IMAGE: images/mininet_topology.png -->
 <!-- Add a screenshot showing the Mininet topology successfully initialized. -->
@@ -299,14 +302,17 @@ Expected result:
 ```
 
 <img width="410" height="303" alt="image" src="https://github.com/user-attachments/assets/6d63150e-34c9-4c92-8b4d-2ac4870f04e9" />
+<br>
 images/pingall_test.png
 <!-- IMAGE: images/pingall_test.png -->
 <!-- Add a screenshot showing successful pingall results. -->
 
 <img width="416" height="203" alt="image" src="https://github.com/user-attachments/assets/3210b8fa-d045-4137-816b-988da2ebd39f" />
+<br>
 images/h4_h1_trafic_bandwith.png
 
 <img width="416" height="213" alt="image" src="https://github.com/user-attachments/assets/f468ed4e-ae93-47fc-b342-76e3e10f9610" />
+<br>
 images/h4_h1_latency.png
 
 ---
@@ -462,19 +468,24 @@ The analysis focuses on:
 - Traffic distribution across network links.
 
 <img width="492" height="169" alt="image" src="https://github.com/user-attachments/assets/f888457e-142c-4229-9cfe-807f239c8c16" />
+<br>
 images/h4_package_before_LB.png
 
 <img width="492" height="196" alt="image" src="https://github.com/user-attachments/assets/1bc0f81f-5d27-44ea-a000-9e57259a272d" />
+<br>
 images/h3_package_before_LB.png
 
 <img width="532" height="323" alt="image" src="https://github.com/user-attachments/assets/102dc1ea-6738-4c5f-a4c1-6117bc0b704e" />
+<br>
 images/h4_package_after_LB.png
 
 <img width="551" height="330" alt="image" src="https://github.com/user-attachments/assets/87ef3eeb-d543-48ae-9828-32b514d2066d" />
+<br>
 images/h3_package_after_LB.png
 
 <img width="556" height="263" alt="image" src="https://github.com/user-attachments/assets/ff3e21e1-25a9-4a82-bc7a-3bbda95538d9" />
 <img width="548" height="188" alt="image" src="https://github.com/user-attachments/assets/6f568e83-8b84-4de6-9365-4943e0bebf4e" />
+<br>
 images/h3_h4_route_to_port4_switch1.png
 
 <!-- IMAGE: images/wireshark_capture.png -->
